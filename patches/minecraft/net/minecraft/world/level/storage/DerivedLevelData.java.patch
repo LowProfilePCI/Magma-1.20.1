@@ -1,0 +1,20 @@
+--- a/net/minecraft/world/level/storage/DerivedLevelData.java
++++ b/net/minecraft/world/level/storage/DerivedLevelData.java
+@@ -12,12 +_,16 @@
+ import net.minecraft.world.level.timers.TimerQueue;
+ 
+ public class DerivedLevelData implements ServerLevelData {
+-   private final WorldData f_78076_;
++   public final WorldData f_78076_;
+    private final ServerLevelData f_78077_;
+ 
+    public DerivedLevelData(WorldData p_78079_, ServerLevelData p_78080_) {
+       this.f_78076_ = p_78079_;
+       this.f_78077_ = p_78080_;
++   }
++
++   public ServerLevelData getWrapped() {
++      return f_78077_;
+    }
+ 
+    public int m_6789_() {
