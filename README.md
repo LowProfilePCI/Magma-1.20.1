@@ -13,6 +13,11 @@
 
 ## ❓ About
 
+**This is a fork of [MagmaArchive](https://github.com/Hexeption/MagmaArchive) by [Hexception](https://github.com/Hexeption).**
+
+I've upgraded net.nemerosa.versioning library version from 2.8.2 to 2.15.1 and dev.vankka.dependencydownload.plugin library version from 1.3.1-SNAPSHOT to 1.3.1 to fix build issues.
+
+<br>
 Magma is the next generation of hybrid minecraft server softwares.
 
 Magma is based on **Forge and Paper**, meaning it can run both **Craftbukkit/Spigot/Paper plugins and Forge mods**.
